@@ -30,3 +30,4 @@ RUN apt-get clean && apt-get update \
         iputils-ping \
         net-tools
 RUN docker-php-ext-install gd
+WORKDIR /var/www
